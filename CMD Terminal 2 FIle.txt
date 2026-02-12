@@ -1,0 +1,144 @@
+Microsoft Windows [Version 10.0.26200.7705]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Arjunsingh Rajput>ollama serve
+Error: listen tcp 127.0.0.1:11434: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+C:\Users\Arjunsingh Rajput>cd %USERPROFILE%\sbmo2-cold-outreach
+
+C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach>cd frontend
+
+C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\frontend>notepad app.py
+
+C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\frontend>python -m venv venv
+
+C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\frontend>venv\Scripts\activate
+
+(venv) C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\frontend>pip install streamlit
+Collecting streamlit
+  Using cached streamlit-1.54.0-py3-none-any.whl (9.1 MB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=4.0
+  Downloading altair-6.0.0-py3-none-any.whl (795 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 795.4/795.4 kB 2.2 MB/s eta 0:00:00
+Collecting blinker<2,>=1.5.0
+  Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting cachetools<7,>=5.5
+  Downloading cachetools-6.2.6-py3-none-any.whl (11 kB)
+Collecting click<9,>=7.0
+  Downloading click-8.3.1-py3-none-any.whl (108 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 6.1 MB/s eta 0:00:00
+Collecting gitpython!=3.1.19,<4,>=3.0.7
+  Downloading gitpython-3.1.46-py3-none-any.whl (208 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208.6/208.6 kB 6.2 MB/s eta 0:00:00
+Collecting numpy<3,>=1.23
+  Downloading numpy-2.4.2-cp311-cp311-win_amd64.whl (12.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 2.3 MB/s eta 0:00:00
+Collecting packaging>=20
+  Downloading packaging-26.0-py3-none-any.whl (74 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.4/74.4 kB 2.1 MB/s eta 0:00:00
+Collecting pandas<3,>=1.4.0
+  Downloading pandas-2.3.3-cp311-cp311-win_amd64.whl (11.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 2.0 MB/s eta 0:00:00
+Collecting pillow<13,>=7.1.0
+  Downloading pillow-12.1.1-cp311-cp311-win_amd64.whl (7.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 2.6 MB/s eta 0:00:00
+Collecting pydeck<1,>=0.8.0b4
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 3.0 MB/s eta 0:00:00
+Collecting protobuf<7,>=3.20
+  Downloading protobuf-6.33.5-cp310-abi3-win_amd64.whl (437 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 437.1/437.1 kB 3.4 MB/s eta 0:00:00
+Collecting pyarrow>=7.0
+  Downloading pyarrow-23.0.0-cp311-cp311-win_amd64.whl (27.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.5/27.5 MB 3.5 MB/s eta 0:00:00
+Collecting requests<3,>=2.27
+  Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 3.4 MB/s eta 0:00:00
+Collecting tenacity<10,>=8.1.0
+  Downloading tenacity-9.1.4-py3-none-any.whl (28 kB)
+Collecting toml<2,>=0.10.1
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting tornado!=6.5.0,<7,>=6.0.3
+  Downloading tornado-6.5.4-cp39-abi3-win_amd64.whl (446 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 446.9/446.9 kB 4.6 MB/s eta 0:00:00
+Collecting typing-extensions<5,>=4.10.0
+  Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.6/44.6 kB 2.1 MB/s eta 0:00:00
+Collecting watchdog<7,>=2.1.5
+  Downloading watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 4.3 MB/s eta 0:00:00
+Collecting jinja2
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 4.0 MB/s eta 0:00:00
+Collecting jsonschema>=3.0
+  Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 5.4 MB/s eta 0:00:00
+Collecting narwhals>=1.27.1
+  Downloading narwhals-2.16.0-py3-none-any.whl (443 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 444.0/444.0 kB 3.5 MB/s eta 0:00:00
+Collecting colorama
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 3.3 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 7.1 MB/s eta 0:00:00
+Collecting pytz>=2020.1
+  Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 4.6 MB/s eta 0:00:00
+Collecting tzdata>=2022.7
+  Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 348.5/348.5 kB 4.3 MB/s eta 0:00:00
+Collecting charset_normalizer<4,>=2
+  Downloading charset_normalizer-3.4.4-cp311-cp311-win_amd64.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.0/107.0 kB 6.0 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.11-py3-none-any.whl (71 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 71.0/71.0 kB 3.8 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.6/131.6 kB 3.8 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.9/152.9 kB 3.0 MB/s eta 0:00:00
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+Collecting MarkupSafe>=2.0
+  Downloading markupsafe-3.0.3-cp311-cp311-win_amd64.whl (15 kB)
+Collecting attrs>=22.2.0
+  Downloading attrs-25.4.0-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.6/67.6 kB ? eta 0:00:00
+Collecting jsonschema-specifications>=2023.03.6
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Collecting referencing>=0.28.4
+  Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Collecting rpds-py>=0.25.0
+  Downloading rpds_py-0.30.0-cp311-cp311-win_amd64.whl (236 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 236.0/236.0 kB 4.8 MB/s eta 0:00:00
+Collecting six>=1.5
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, watchdog, urllib3, tzdata, typing-extensions, tornado, toml, tenacity, smmap, six, rpds-py, pyarrow, protobuf, pillow, packaging, numpy, narwhals, MarkupSafe, idna, colorama, charset_normalizer, certifi, cachetools, blinker, attrs, requests, referencing, python-dateutil, jinja2, gitdb, click, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+Successfully installed MarkupSafe-3.0.3 altair-6.0.0 attrs-25.4.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.1.4 charset_normalizer-3.4.4 click-8.3.1 colorama-0.4.6 gitdb-4.0.12 gitpython-3.1.46 idna-3.11 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 narwhals-2.16.0 numpy-2.4.2 packaging-26.0 pandas-2.3.3 pillow-12.1.1 protobuf-6.33.5 pyarrow-23.0.0 pydeck-0.9.1 python-dateutil-2.9.0.post0 pytz-2025.2 referencing-0.37.0 requests-2.32.5 rpds-py-0.30.0 six-1.17.0 smmap-5.0.2 streamlit-1.54.0 tenacity-9.1.4 toml-0.10.2 tornado-6.5.4 typing-extensions-4.15.0 tzdata-2025.3 urllib3-2.6.3 watchdog-6.0.0
+
+[notice] A new release of pip available: 22.3.1 -> 26.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\frontend>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\arjunsingh rajput\sbmo2-cold-outreach\frontend\venv\lib\site-packages (22.3.1)
+Collecting pip
+  Using cached pip-26.0.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 22.3.1
+    Uninstalling pip-22.3.1:
+      Successfully uninstalled pip-22.3.1
+Successfully installed pip-26.0.1
+
+(venv) C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\frontend>streamlit run app.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.12:8501
+

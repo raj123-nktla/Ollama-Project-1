@@ -1,0 +1,49 @@
+
+C:\Users\Arjunsingh Rajput>ollama run mistral
+>>> Write a short cold email.
+ Subject: Seeking Collaboration Opportunities - [Your Name]
+
+Dear [Recipient's Name],
+
+I hope this message finds you well. I came across your profile and was impressed by the innovative work that your
+company is doing in the field of [mention their industry or project].
+
+I am reaching out because I believe we might have some mutual interests that could lead to a fruitful
+collaboration. My team at [Your Company Name] has recently developed a solution that we think could significantly
+enhance [describe what they do/what problem they solve].
+
+If you're open to discussing potential collaborations
+or partnerships, I would be delighted to arrange a call
+to discuss further details. Please let me know if there
+is a more appropriate person to direct this message to,
+or if you prefer a different method of communication.
+
+Looking forward to hearing from you soon.
+
+Best Regards,
+[Your Name]
+[Your Position]
+[Your Contact Information]
+
+>>>
+Use Ctrl + d or /bye to exit.
+>>>
+
+C:\Users\Arjunsingh Rajput>cd sbm02-cold-outreach
+The system cannot find the path specified.
+
+C:\Users\Arjunsingh Rajput>cd sbmo2-cold-outreach
+
+C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach>python -m venv venv
+
+C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach>venv\Scripts\activate
+
+(venv) C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach>cd backend
+
+(venv) C:\Users\Arjunsingh Rajput\sbmo2-cold-outreach\backend>uvicorn main:app --reload
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Arjunsingh Rajput\\sbmo2-cold-outreach\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [24068] using StatReload
+INFO:     Started server process [29200]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
